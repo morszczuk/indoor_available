@@ -13,7 +13,7 @@
         <nav:referencedState/>
         <nav:geometry>
           <gml:Point gml:id="Point1">
-            <gml:pos>         52.222050 21.007003</gml:pos>
+            <gml:pos>52.222050 21.007003</gml:pos>
           </gml:Point>
         </nav:geometry>
       </nav:RouteNode>
