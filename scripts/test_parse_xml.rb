@@ -5,7 +5,7 @@ require_relative '../lib/indoor_nav_gml_parser.rb'
 
 indoornaviURI = 'http://www.opengis.net/indoorgml/1.0/navigation'
 
-routes_set_1_path = '../test_data/routes_set_1.xml'
+routes_set_1_path = '../test_data/routes_set_2.xml'
 document = Nokogiri::XML(File.read(routes_set_1_path))
 
 # puts document.class
@@ -39,4 +39,6 @@ indoor_gml_parser = IndoorNavGMLParser.new(document)
 parsed_routes =  indoor_gml_parser.parse_routes
 
 puts "this is: #{parsed_routes.class} #{parsed_routes}"
+
+parsed_routes[0].build_route_graph
 

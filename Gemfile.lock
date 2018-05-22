@@ -1,11 +1,26 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    diff-lcs (1.3)
     mini_portile2 (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     nokogiri-happymapper (0.6.0)
       nokogiri (~> 1.5)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    ruby-graphviz (1.2.3)
 
 PLATFORMS
   ruby
@@ -13,6 +28,8 @@ PLATFORMS
 DEPENDENCIES
   nokogiri
   nokogiri-happymapper
+  rspec
+  ruby-graphviz
 
 BUNDLED WITH
    1.16.1

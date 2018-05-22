@@ -1,5 +1,5 @@
 class RouteNode
-  attr_accessor :gml_id
+  attr_accessor :gml_id, :point
   def initialize(gml_id, point)
     @gml_id = gml_id
     @point = point

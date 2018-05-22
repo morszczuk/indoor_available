@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav:Route 
+  xmlns:nav="http://www.opengis.net/indoorgml/1.0/navigation" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:gml="http://www.opengis.net/gml/3.2" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:core="http://www.opengis.net/indoorgml/1.0/core" gml:id="Route1">
+  <nav:startRouteNode xlink:href="#RouteNode1"/>
+  <nav:endRouteNode xlink:href="#RouteNode2"/>
+  <nav:routeNodes gml:id="RouteNodes1">
+    <nav:nodeMember>
+      <nav:RouteNode gml:id="RouteNode1">
+        <nav:referencedState/>
+        <nav:geometry>
+          <gml:Point gml:id="Point1">
+            <gml:pos>52.222050 21.007003</gml:pos>
+          </gml:Point>
+        </nav:geometry>
+      </nav:RouteNode>
+    </nav:nodeMember>
+    <nav:nodeMember>
+      <nav:RouteNode gml:id="RouteNode2">
+        <nav:referencedState/>
+        <nav:geometry>
+          <gml:Point gml:id="Point2">
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:Point>
+        </nav:geometry>
+      </nav:RouteNode>
+    </nav:nodeMember>
+     <nav:nodeMember>
+      <nav:RouteNode gml:id="RouteNode3">
+        <nav:referencedState/>
+        <nav:geometry>
+          <gml:Point gml:id="Point3">
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:Point>
+        </nav:geometry>
+      </nav:RouteNode>
+    </nav:nodeMember>
+     <nav:nodeMember>
+      <nav:RouteNode gml:id="RouteNode4">
+        <nav:referencedState/>
+        <nav:geometry>
+          <gml:Point gml:id="Point4">
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:Point>
+        </nav:geometry>
+      </nav:RouteNode>
+    </nav:nodeMember>
+     <nav:nodeMember>
+      <nav:RouteNode gml:id="RouteNode5">
+        <nav:referencedState/>
+        <nav:geometry>
+          <gml:Point gml:id="Point5">
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:Point>
+        </nav:geometry>
+      </nav:RouteNode>
+    </nav:nodeMember>
+  </nav:routeNodes>
+  <nav:path gml:id="path">
+    <nav:routeMember>
+      <nav:RouteSegment gml:id="RouteSegment">
+        <nav:weight>1.0</nav:weight>
+        <nav:connects xlink:href="#RouteNode1"/>
+        <nav:connects xlink:href="#RouteNode2" />
+        <nav:referencedTransition></nav:referencedTransition>
+        <nav:geometry>
+          <gml:LineString gml:id="LineString">
+            <gml:pos>52.222050 21.007003</gml:pos>
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:LineString>
+        </nav:geometry>
+      </nav:RouteSegment>
+    </nav:routeMember>
+        <nav:routeMember>
+      <nav:RouteSegment gml:id="RouteSegment2">
+        <nav:weight>1.0</nav:weight>
+        <nav:connects xlink:href="#RouteNode2"/>
+        <nav:connects xlink:href="#RouteNode4" />
+        <nav:referencedTransition></nav:referencedTransition>
+        <nav:geometry>
+          <gml:LineString gml:id="LineString2">
+            <gml:pos>52.222050 21.007003</gml:pos>
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:LineString>
+        </nav:geometry>
+      </nav:RouteSegment>
+    </nav:routeMember>
+        <nav:routeMember>
+      <nav:RouteSegment gml:id="RouteSegment3">
+        <nav:weight>1.0</nav:weight>
+        <nav:connects xlink:href="#RouteNode4"/>
+        <nav:connects xlink:href="#RouteNode5" />
+        <nav:referencedTransition></nav:referencedTransition>
+        <nav:geometry>
+          <gml:LineString gml:id="LineString3">
+            <gml:pos>52.222050 21.007003</gml:pos>
+            <gml:pos>52.222105 21.007003</gml:pos>
+          </gml:LineString>
+        </nav:geometry>
+      </nav:RouteSegment>
+    </nav:routeMember>
+    
+  </nav:path>
+</nav:Route>

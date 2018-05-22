@@ -32,7 +32,7 @@
   <nav:path gml:id="path">
     <nav:routeMember>
       <nav:RouteSegment gml:id="RouteSegment">
-        <nav:weight>1.0                                </nav:weight>
+        <nav:weight>1.0</nav:weight>
         <nav:connects xlink:href="#RouteNode1"/>
         <nav:connects xlink:href="#RouteNode2" />
         <nav:referencedTransition></nav:referencedTransition>
@@ -45,5 +45,4 @@
       </nav:RouteSegment>
     </nav:routeMember>
   </nav:path>
-  <lalala/>
 </nav:Route>
